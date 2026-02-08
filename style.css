@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+}
+
+
+.card{
+    width: 90%;
+    background: linear-gradient(to bottom, #307996, #185c36);
+    max-width: 500px;
+    text-align: center;
+    padding: 30px 45px ;
+   margin:100px auto;
+   color: white;
+   border-radius: 25px;
+   margin-top: 5%;
+        
+}
+
+.search
+{
+    display: flex;
+    justify-content: center;
+   
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    overflow: hidden;
+    
+
+    
+
+}
+/*
+.weather{
+    display: none;
+}
+*/ 
+/*also can be done just the navbar if you need as per your choice */
+
+.weather img{
+    width: 150px;
+    padding: 20px 30px;
+    margin: 0%;
+    transition: transform 0.3s ease;
+}
+
+.weather img:hover{
+    transform: scale(1.1);
+}
+
+
+.search input{
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+     flex: 1;              
+    min-width: 250px;     
+    padding: 10px 15px;   
+    font-size: 1rem;     
+    box-sizing: border-box;
+    
+    
+}
+
+.search button{
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 0;
+    margin: 0;
+    transition: all 0.3 ease;
+
+    
+}
+
+.search button:hover{
+
+    transform: scale(1.5);
+    
+}
+.search button img{
+    width: 16px;
+    height: auto;
+    padding: auto;
+
+}
+
+.details{
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+   
+    padding: 30px 30px;
+
+    
+ 
+    
+    
+    
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.col img
+{
+    width: 100px;
+
+    margin-left: 40px;
+    gap: 0;
+    padding: 5%;
+    margin: 0%;
+    transition: transform 0.3s ease;
+}
+
+.col img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0%;
+}
+
+h2{
+    font-size: 2rem;
+     margin: 0;
+    padding: 0%;
+   
+    font-family:"Roboto", sans-serif;
+}
+
+p{
+    font-size: 2rem;
+    gap: 0;
+    margin: 0;
+    margin-right: 40px;
+
+}
+
+
+
+
